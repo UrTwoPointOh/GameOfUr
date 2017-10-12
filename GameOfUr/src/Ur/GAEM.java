@@ -4,6 +4,17 @@ import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
+import java.io.*;
+import sun.audio.*;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.*;
+
+
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -88,12 +99,59 @@ public class GAEM extends JPanel{
 	static String space19 = "[          ]";
 	static String space20 = "[          ]";
 	
-	public static void main(String[] args)
+	public class SoundTest {
+		private JButton b1 = new JButton("Falcon Punch");
+
+		{b1.addActionListener(e->
+		{try {
+			FP();
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	});
+	}
+	private GridLayout layout = new GridLayout(1, 1);
+	private Container con = getRootPane();
+	public SoundTest()
+	{
+		con.setLayout(layout);
+		con.add
+		(b1);
+		setSize(200, 200);
+		
+		}
+	private void FP() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setVisible(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+	}
+	public static void Wav()
+			throws Exception
+	{
+		Path path = Paths.get("Main.wav");
+		Path realPath = path.toRealPath(LinkOption.NOFOLLOW_LINKS);
+		String place = realPath.toString();
+		  String wav_file = place;
+		InputStream in = new FileInputStream(wav_file);
+		  AudioStream audio = new AudioStream(in);
+		  AudioPlayer.player.start(audio);	
+	}
+	
+	public static void main(String[] args) throws Exception
+	
 	{	
+		SoundTest frame = new Soundtest();
+	frame.setVisible(true);
+
 		
 		playGame();
 	}	
 
+	
 	public static void playGame()
 	{
 		String[] options = new String[] {"Piece 1", "Piece 2", "Piece 3", "Piece 4", "Piece 5", "Piece 6", "Piece 7", "Roll"};
