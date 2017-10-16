@@ -3,7 +3,10 @@ package Ur;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 
+import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
@@ -13,6 +16,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+
+import sun.audio.AudioData;
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
+import sun.audio.ContinuousAudioDataStream;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -92,16 +100,50 @@ public class GAEM extends JPanel{
 	static String space20 = "[          ]";
 	
 	
-	public void setVisible(boolean b) {
-		// TODO Auto-generated method stub
-		
+
+	static void Instructions()
+	{
+		JOptionPane.showMessageDialog(null, "1.Player 1 will go first ( red )\r\n" + 
+				"Player 2 will go second ( blue )\r\n" + 
+				"2. Roll to move your pieces\r\n" + 
+				"3. You may place a piece or move an existing piece\r\n" + 
+				"4. Click the number signifying your piece count to place a new piece\r\n" + 
+				"5. Click an existing piece to move it\r\n" + 
+				"6. You are in the Safe Zone when on your side of the board\r\n" + 
+				"7. The middle side of the board is the War Zone\r\n" + 
+				"8. You may not enter your opponent’s Safe Zone\r\n" + 
+				"9. Landing on your opponent’s piece when in the War Zone will remove their piece and send it back into their hand.\r\n" + 
+				"10. If your piece is on the Crest and your opponent lands on it, as well, the opponent cannot  remove your piece, and instead will be placed in the space behind it.\r\n" + 
+				"11. To win the game, your pieces must make it from the start to the finish, then off of the board.\r\n" + 
+				"12. A piece cannot be moved from finish space to off of the board in the same turn.\r\n" + 
+				"13. To move off the board from the finish space, a piece must only be able to move one space; no more\r\n" + 
+				"14. When rolling, 4 rolls are made, all either granting 1 or 0\r\n" + 
+				"15. Amount granted is added and the total is the amount of spaces you may move in that turn \r\n" 
+				);
+	}
+	static void Music() 
+	{
+	
+	
+		 try {
+			 ContinuousAudioDataStream loop = null;
+		        AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\hs131455\\Downloads\\Main.wav").getAbsoluteFile());
+		        Clip clip = AudioSystem.getClip();
+		        clip.open(audioInputStream);
+		        clip.start();
+		    } catch(Exception ex) {
+		        System.out.println("Error with playing sound.");
+		        ex.printStackTrace();
+		    }
+	
 	}
 	
 	
 	public static void main(String[] args) throws Exception
 	
 	{	
-		
+		Music();
+		Instructions();
 		playGame();
 	}
 	
