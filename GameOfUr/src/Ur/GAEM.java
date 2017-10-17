@@ -118,8 +118,580 @@ public class GAEM{
 		p2space15 = "[          ]";
 		p2space16 = "[          ]";
 		
-		//check if pieces landed on
-		
+		//check if pieces landed on pieces
+				if (playerOnePieceSevenSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece seven
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceSevenSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece six
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece six
+				else if (playerOnePieceSixSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceSixSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece five
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece five
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceFiveSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece four
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece four
+				else if (playerOnePieceFourSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceFourSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece three
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece three
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceThreeSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece two
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece two
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceTwoSpaceValue == playerOnePieceOneSpaceValue)
+				{
+					playerOnePieceOneSpaceValue = 0;
+				}
+				
+				//Player Two landed on with piece One
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//Own Piece landed on with piece one
+				else if (playerOnePieceOneSpaceValue == playerOnePieceSevenSpaceValue)
+				{
+					playerOnePieceSevenSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerOnePieceSixSpaceValue)
+				{
+					playerOnePieceSixSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerOnePieceFiveSpaceValue)
+				{
+					playerOnePieceFiveSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerOnePieceFourSpaceValue)
+				{
+					playerOnePieceFourSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerOnePieceThreeSpaceValue)
+				{
+					playerOnePieceThreeSpaceValue = 0;
+				}
+				else if (playerOnePieceOneSpaceValue == playerOnePieceTwoSpaceValue)
+				{
+					playerOnePieceTwoSpaceValue = 0;
+				}
+				
+				//Player Two lands on player two
+				//piece seven
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerTwoPieceSevenSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece six
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerTwoPieceSixSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece five
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerTwoPieceFiveSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece four
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerTwoPieceFourSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece three
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
+				else if (playerTwoPieceThreeSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece two
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceTwoSpaceValue == playerTwoPieceOneSpaceValue)
+				{
+					playerTwoPieceOneSpaceValue = 0;
+				}
+				
+				//piece one
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceSevenSpaceValue)
+				{
+					playerTwoPieceSevenSpaceValue = 0;
+				}
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceSixSpaceValue)
+				{
+					playerTwoPieceSixSpaceValue = 0;
+				}
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceFiveSpaceValue)
+				{
+					playerTwoPieceFiveSpaceValue = 0;
+				}
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceFourSpaceValue)
+				{
+					playerTwoPieceFourSpaceValue = 0;
+				}
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceThreeSpaceValue)
+				{
+					playerTwoPieceThreeSpaceValue = 0;
+				}
+				else if (playerTwoPieceOneSpaceValue == playerTwoPieceTwoSpaceValue)
+				{
+					playerTwoPieceTwoSpaceValue = 0;
+				}
 		
 		// Check piece seven space value
 		if (playerOnePieceSevenSpaceValue == 1)
@@ -1074,400 +1646,6 @@ public class GAEM{
 			playerOnePieceSevenSpaceValue = playerOnePieceSevenSpaceValue + P1TotalDie;
 			playerTwo();
 			
-			// Check if land on piece
-			//Player Two landed on with piece seven
-			if (playerOnePieceSevenSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece seven
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceSevenSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece six
-			if (playerOnePieceSixSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece six
-			else if (playerOnePieceSixSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceSixSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece five
-			if (playerOnePieceFiveSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece five
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceFiveSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece four
-			if (playerOnePieceFourSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece four
-			else if (playerOnePieceFourSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceFourSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece three
-			if (playerOnePieceThreeSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece three
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceThreeSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece two
-			if (playerOnePieceTwoSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece two
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceTwoSpaceValue == playerOnePieceOneSpaceValue)
-			{
-				playerOnePieceOneSpaceValue = 0;
-			}
-			
-			//Player Two landed on with piece One
-			if (playerOnePieceOneSpaceValue == playerTwoPieceSevenSpaceValue)
-			{
-				playerTwoPieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceSixSpaceValue)
-			{
-				playerTwoPieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceFiveSpaceValue)
-			{
-				playerTwoPieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceFourSpaceValue)
-			{
-				playerTwoPieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceThreeSpaceValue)
-			{
-				playerTwoPieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceTwoSpaceValue)
-			{
-				playerTwoPieceTwoSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerTwoPieceOneSpaceValue)
-			{
-				playerTwoPieceOneSpaceValue = 0;
-			}
-			
-			//Own Piece landed on with piece one
-			else if (playerOnePieceOneSpaceValue == playerOnePieceSevenSpaceValue)
-			{
-				playerOnePieceSevenSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerOnePieceSixSpaceValue)
-			{
-				playerOnePieceSixSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerOnePieceFiveSpaceValue)
-			{
-				playerOnePieceFiveSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerOnePieceFourSpaceValue)
-			{
-				playerOnePieceFourSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerOnePieceThreeSpaceValue)
-			{
-				playerOnePieceThreeSpaceValue = 0;
-			}
-			else if (playerOnePieceOneSpaceValue == playerOnePieceTwoSpaceValue)
-			{
-				playerOnePieceTwoSpaceValue = 0;
-			}
-			
-			
 			}
 			
 			if (playerOnePieceSevenDone == 1)
@@ -1987,6 +2165,585 @@ public class GAEM{
 		p2space14 = "[          ]";
 		p2space15 = "[          ]";
 		p2space16 = "[          ]";
+		
+		//check if pieces landed on pieces
+		if (playerOnePieceSevenSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece seven
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceSevenSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece six
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece six
+		else if (playerOnePieceSixSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceSixSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece five
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece five
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceFiveSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece four
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece four
+		else if (playerOnePieceFourSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceFourSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece three
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece three
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceThreeSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece two
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece two
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceTwoSpaceValue == playerOnePieceOneSpaceValue)
+		{
+			playerOnePieceOneSpaceValue = 0;
+		}
+		
+		//Player Two landed on with piece One
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//Own Piece landed on with piece one
+		else if (playerOnePieceOneSpaceValue == playerOnePieceSevenSpaceValue)
+		{
+			playerOnePieceSevenSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerOnePieceSixSpaceValue)
+		{
+			playerOnePieceSixSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerOnePieceFiveSpaceValue)
+		{
+			playerOnePieceFiveSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerOnePieceFourSpaceValue)
+		{
+			playerOnePieceFourSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerOnePieceThreeSpaceValue)
+		{
+			playerOnePieceThreeSpaceValue = 0;
+		}
+		else if (playerOnePieceOneSpaceValue == playerOnePieceTwoSpaceValue)
+		{
+			playerOnePieceTwoSpaceValue = 0;
+		}
+		
+		//Player Two lands on player two
+		//piece seven
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerTwoPieceSevenSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece six
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerTwoPieceSixSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece five
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerTwoPieceFiveSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece four
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerTwoPieceFourSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece three
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else if (playerTwoPieceThreeSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece two
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceTwoSpaceValue == playerTwoPieceOneSpaceValue)
+		{
+			playerTwoPieceOneSpaceValue = 0;
+		}
+		
+		//piece one
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceSevenSpaceValue)
+		{
+			playerTwoPieceSevenSpaceValue = 0;
+		}
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceSixSpaceValue)
+		{
+			playerTwoPieceSixSpaceValue = 0;
+		}
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceFiveSpaceValue)
+		{
+			playerTwoPieceFiveSpaceValue = 0;
+		}
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceFourSpaceValue)
+		{
+			playerTwoPieceFourSpaceValue = 0;
+		}
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceThreeSpaceValue)
+		{
+			playerTwoPieceThreeSpaceValue = 0;
+		}
+		else if (playerTwoPieceOneSpaceValue == playerTwoPieceTwoSpaceValue)
+		{
+			playerTwoPieceTwoSpaceValue = 0;
+		}
+		else
+		{
+			
+		}
 		
 		// Check piece seven space value
 		if (playerTwoPieceSevenSpaceValue == 1)
