@@ -1,4 +1,3 @@
 # GameOfUr
 Digital Recreation of the Royal Game of Ur
-< img scr = "Ur.JPG" 
-hight = "250" width = "250">
+![ur](https://user-images.githubusercontent.com/23103615/31722085-c69d5f64-b3e0-11e7-84a5-9d870102dd68.jpg)
